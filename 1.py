@@ -1,6 +1,6 @@
 #coding:utf-8
 from PIL import Image
-im = Image.open('5.gif')
+im = Image.open('5.png')
 w,h = im.size
 im2=im.convert('L')
 
